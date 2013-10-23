@@ -44,7 +44,7 @@ function in "~/.vim/autoload/searchext/method/literal.vim".
 The list of search method:
 
 migemo		Migemo search.
-		This requires the +ruby feature; may not work in the Win32 version of Vim.
+		This requires the +ruby feature.
 		This requires migemo command setting like the following.
 
 		  Example: let searchext#method#migemo#command = "nkf -Weu |migemo -t emacs /usr/share/migemo/migemo-dict -i '\t' |nkf -Ewu |sed -u 's/\\\\(/\\\\%(/g;s/\t//g'"
